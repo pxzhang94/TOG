@@ -90,8 +90,8 @@ if __name__=="__main__":
     # output_loc = 'test_frame_W/'
     # video_to_frames(input_loc, output_loc)
 
-    inputpath = 'haze_frame_W/'
-    outpath = 'frame2video/haze_DFI_W.MP4'
+    inputpath = 'haze_frame_Z/'
+    outpath = 'frame2video/haze_DFI_Z.MP4'
     fps = 29 # MOT:25
     frames_to_video(inputpath, outpath, fps)
 
